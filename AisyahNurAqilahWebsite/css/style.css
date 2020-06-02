@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+}
+.background{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/Aisyah.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+
+}
+.nav{
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 20%;
+	left: 0;
+}
+.nav a{
+	text-decoration: none;
+	font-size: 24px;
+	font-family: Century Gothic;
+	font-weight: bold;
+	height: 70px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	background-color: pink;
+	color: black;
+	line-height: 90px;
+	text-align: center;
+	transition: 300ms;
+}
+
+a.active , .nav a:hover{
+	background-color:black;
+	color: pink;
+	width: 100%;
+}
+.a{
+	width: 95%;
+}
+.b{
+	width: 85%;
+}
+.c{
+	width: 75%;
+}
+.d{
+	width: 70%;
+}
+.e{
+	width:80%;
+}
+.f{
+	width: 90%;
+}
+
+.content{
+	position: absolute;
+	width: 930px;
+	min-height: 500px;
+	height: auto;
+	/*background-color: red;*/
+	right: 0;
+	top:10%;	
+}
+.home{
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	color: white;
+	font-family: Gill Sans MT;
+	text-transform: uppercase;	
+}
+.home h1{
+	font-size: 40px;
+	padding-right: 80px;
+	border-bottom: 1px solid white;	
+}
+.home h3{
+	font-size: 20px;
+	padding: 5px 0;
+	opacity: 0.6;
+}
+
+.aboutus{
+	position: absolute;
+	right: 0;
+	top: 5px;
+	color: white;
+	font-family:Century Gothic ;
+	padding: 0 50px;
+	display:none;			
+}
+.aboutus p{
+	font-size: 17px;
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+
+.gallery{
+	position: absolute;
+	right: 0;
+	top: 13px;
+	color: white;
+	padding: 0 50px;
+	display: none;
+} 
+.gallery .image{
+	width: 31%;
+	margin: 1%;
+	float: right;	
+}
+.image img{
+	width: 100%;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+.image img:hover{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+}
+.video{
+	position: absolute;
+	right: 0;
+	top: 13px;
+	color: white;
+	padding: 0 50px;
+	display: none;
+} 
+.video .image{
+	width: 31%;
+	margin: 1%;
+	float: right;	
+}
+.mycookingrecipe{
+	position: absolute;
+	color: white;
+	padding: 0 50px;
+	display: none;
+}
+.mycookingrecipe h1{
+	font-size: 30px;
+	color: yellow;
+	font-family: Gill Sans MT;
+	text-transform: uppercase;
+}
+.mycookingrecipe .image{
+	width: 35%;
+	height: 10%;
+	margin: 1%;
+	float: center;
+}
+.mycookingrecipe h2{
+	font-size: 17px;
+	color: red;
+	font-family: Gill Sans MT;
+	text-transform: uppercase;
+}
+.mycookingrecipe p{
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	color: black;
+	font-family: Gill Sans MT;
+	font-weight:bold;
+}
+
+.mycookingrecipe li{
+	font-size: 15px;
+	line-height:8px;
+	margin-bottom: 10px;
+	color: white;
+	font-family:Century Gothic;
+	font-weight:normal;
+}
+
+.mycookingrecipe table{
+	position: absolute;
+	width: 90%;
+
+}
+thead{
+	color: white;
+	font-family:Century Gothic;
+	font-weight:Bold;
+}
+tbody{
+	color: white;
+	font-family:Century Gothic;
+	font-weight:normal;
+}
+.contactus{
+	position: absolute;
+	right: 0;
+	top: 80px;
+	color: white;
+	padding: 0 50px;
+	display: none;
+}
+.inputtext{
+	width: 55%;
+	height: 65px;
+	border: 3px solid black;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 20px;
+	padding: 0 10px;
+	float: left;
+	margin-bottom: 15px;
+}
+.inputmessage{
+	width: 55%;
+	height: 135px;
+	border: 3px solid black;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 20px;
+	padding: 0 10px;
+	float: left;
+}
+.submitbutton{
+	width: 160px;
+	height: 65px;
+	font-family: Century Gothic;
+	background-color: white;
+	color: black;
+	font-size: 26px;
+	border: none;
+	font-weight: bold;
+	float: left;
+	clear: both;
+	margin-top:25px;
+}
